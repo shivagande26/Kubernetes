@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: mysql
-          image: mysql:oraclelinux9
+          image: mysql:5.6
           env:
             - name: MYSQL_ROOT_PASSWORD
               valueFrom:
